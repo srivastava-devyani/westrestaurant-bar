@@ -1,0 +1,127 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.about-us, .sneak-peek, .special-offer, .reservation, .contact-us {
+    margin-bottom: 40px;
+}
+
+.about-us p {
+    color: #BE965A;
+    font-size:0.45cm;
+}
+
+.about-us h2, .sneak-peek h2, .special-offer h2, .reservation h2, .contact-us h2 {
+    color: #BE965A;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around; 
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.image-description {
+    text-align: center;
+}
+
+.image-description img {
+    width: 350px; 
+    height: auto;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    margin-bottom: 10px; 
+}
+.special-offer img {
+    width: 70%; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+
+.special-offer {
+    background-color: #2D373D;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.special-offer p, .reservation p {
+    color: #BE965A;
+}
+
+.download-coupon {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #BE965A;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-coupon:hover {
+    background-color: #000000;
+    color: #BE965A;
+}
+
+.reservation, .contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation h2 {
+    color: #BE965A;
+}
+
+.reservation label {
+    margin-bottom: 5px;
+}
+
+.reservation input, .reservation textarea, .reservation button {
+    margin-bottom: 10px;
+}
+
+.reservation button {
+    background-color: #BE965A;
+    color: #000000; 
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation button:hover {
+    background-color: #000000;
+    color: #BE965A;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: 40px; 
+}
