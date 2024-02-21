@@ -58,10 +58,11 @@ header img {
     scroll-snap-align: center;
     margin-bottom: 10px; 
 }
+
 .special-offer img {
-    width: 70%; 
-    border-radius: 10px; 
-    margin-bottom: 20px; 
+    width: 90%; 
+    border-radius: 20px; 
+    margin-bottom: 10px; 
 }
 
 .special-offer {
