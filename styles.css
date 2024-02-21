@@ -12,6 +12,13 @@ body {
     text-align: center;
 }
 
+.container .special-offer{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
 header img {
     width: 100%;
     max-width: 300px;
@@ -23,12 +30,13 @@ header img {
 }
 
 .about-us p {
-    color: #FFFFFF;;
+    color: #FFFFFF;
     font-size:0.45cm;
 }
 
 .about-us h2, .sneak-peek h2, .special-offer h2, .reservation h2, .contact-us h2 {
     color: #BE965A;
+    text-decoration: underline;
 }
 
 .image-gallery {
@@ -36,6 +44,7 @@ header img {
     justify-content: space-around; 
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    
 }
 
 .image-description {
@@ -57,7 +66,7 @@ header img {
 
 .special-offer {
     background-color: #2D373D;
-    padding: 20px;
+    padding: 30px;
     border-radius: 100px;
 }
 
@@ -124,4 +133,12 @@ header img {
 .social-icons img {
     width: 40px; 
     height: 40px; 
+}
+.image-border {
+    width: 350px; 
+    height: auto;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    margin-bottom: 10px;
+    border: 5px solid #FFFFFF; /* Adds a white border */
 }
